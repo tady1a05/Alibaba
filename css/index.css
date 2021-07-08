@@ -12,10 +12,15 @@
 
     .nagavtion-content{
         padding-bottom: 10px !important;
+        text-align: center !important;
     }
 
     .header{
         padding-right: 0px !important;
+    }
+
+    .nagavtion-content>li{
+        padding-left: 0px !important;
     }
 }
 
