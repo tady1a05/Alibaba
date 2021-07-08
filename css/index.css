@@ -1,0 +1,138 @@
+@media screen and (min-width: 1280px){
+    .container{
+        width: 1280px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .nagavtion-content>li{
+        float: left;
+        width: 20%;
+    }
+
+    .nagavtion-content{
+        padding-bottom: 10px !important;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .album{
+        padding-left: 12px !important;
+    }
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+.container{
+    background-color: #ffffff;
+}
+
+.nagavtion-header{
+    background-color: #429ad9;
+    text-align: center;
+}
+
+.nagavtion-header>img{
+    max-width: 100% !important;
+}
+
+.nagavtion-header2{
+    height: 50px;
+    background-color: #429ad9;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.nagavtion-content{
+    overflow: auto;
+    line-height: 50px;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nagavtion-content>li{
+    height: 50px;
+    padding-left: 28px;
+    background-color: #eeeeee;
+}
+
+.nagavtion-content>li:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.welcome-header>img{
+    width: 100%;
+}
+
+.welcome-content{
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    height: 159px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.welcome-content>button{
+    background-color: #177abd;
+    color: white;
+}
+
+.welcome-content>p{
+    color: #666666;
+    font-size: 10px;
+}
+
+.welcome-content>h4{
+    color: #337ab7;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.newsbox>img{
+    width: 100%;
+}
+
+.newsbox{
+    position: relative;
+}
+
+.blacklayer{
+    position: absolute;
+    width: 100%;
+    height: 41px;
+    padding-left: 10px;
+    left: 0px;
+    bottom: 0px;
+    background-color:rgba(0,0,0,0.6);  
+    color: white;
+    font-size: 13px;
+}
+
+.news{
+    border-bottom: 1px solid #cccccc; 
+    padding-bottom: 22px;
+}
+
+.news img{
+    width: 100%;
+}
+
+.newsTitle{
+    margin-top: 34px;
+}
+
+.newsContent{
+    margin-bottom: 8px;
+    margin-top: 16px; 
+    font-size: 14px;
+}
+
+.newsComment{
+    font-size: 14px;
+}
