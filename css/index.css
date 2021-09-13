@@ -145,3 +145,24 @@ body{
 .newsComment{
     font-size: 14px;
 }
+
+.carousel-item{
+    position: relative;
+}
+
+.carousel-item>img{
+    height: 266.5px;
+}
+
+.carousel-caption{
+    position: absolute;
+    width: 100%;
+    height: 41px !important;
+    line-height: 41px !important;
+    padding: 0px !important;
+    left: 0px !important;
+    bottom: 0px !important;
+    background-color:rgba(0,0,0,0.6);  
+    color: white;
+    font-size: 13px;
+}
